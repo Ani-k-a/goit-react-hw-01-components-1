@@ -16,6 +16,7 @@ const Statistics = ({ title, stats }) => (
 );
 
 Statistics.propTypes = {
+  id: PropTypes.number,
   tilte: PropTypes.string,
   stats: PropTypes.array
 };

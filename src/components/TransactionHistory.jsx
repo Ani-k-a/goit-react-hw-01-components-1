@@ -22,4 +22,11 @@ const TransactionHistory = ({items}) =>(
 </table>
 );
 
+TransactionHistory.propTypes = {
+    key: PropTypes.number,
+    type: PropTypes.string,
+    amount: PropTypes.number,
+    currency: PropTypes.string
+}
+
 export default TransactionHistory;
