@@ -1,0 +1,24 @@
+.statistics {
+  background-color: #ffff;
+  border: none;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.title{
+    padding: 20px;
+    text-align: center;
+    font-weight: 700px;
+}
+.statList {
+  border: 1px solid #dfe2e6;
+  display: flex;
+  justify-content: center;
+}
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  text-align: center;
+  padding: 20px 30px;
+  width: 20%;
+}
