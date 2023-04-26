@@ -3,8 +3,10 @@ import clsx from "clsx";
 import css from './FriendListItem.module.css'
 
 const FriendListItem = ({ id, avatar, name, isOnline }) => (
-  <li key={id} className={clsx(css.item)}>
-    <span className={clsx(css.status)}></span>
+  <li key={id} className={clsx(css.item)} >
+    <span className={clsx(css.status)} style={{
+          backgroundColor: isOnline ? '#00FF00' : '#FF0000',
+        }}></span>
     <img className={clsx(css.avatar)} src={avatar} alt="User avatar" width="48" />
     <p className={clsx(css.name)}>{name}</p>
   </li>
